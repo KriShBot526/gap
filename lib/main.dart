@@ -39,19 +39,13 @@ class _HomeScreenState extends State<HomeScreen> {
         child: ElevatedButton(
             onPressed: () {
               Navigator.push(
-                context,
+                  context,
                   MaterialPageRoute(
-                      builder: (BuildContext context) =>
-                        CameraPage(),
-                  )
-              );
+                    builder: (BuildContext context) => CameraPage(),
+                  ));
             },
-            child: const Text('Open Camera')
-        ),
+            child: const Text('Open Camera')),
       ),
     );
   }
 }
-
-
-
